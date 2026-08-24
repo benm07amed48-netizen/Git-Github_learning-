@@ -1,11 +1,11 @@
 # Git-Github_learning-
 this repo is for learning GIT &amp; GITHUB
 
-## Github Commands : 
+#### Github Commands : 
   _ git clone to transfer the repo to your local 
 
 
-## Git Commands :
+#### Git Commands :
  _ git init -- to create new repo
  _ git add <file name> -- to add file(s) to the index repo index
  _ git commit -m "comment" -- to commit change including explanation messages 
