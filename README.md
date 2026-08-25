@@ -3,8 +3,9 @@ this repo is for learning GIT &amp; GITHUB
 
 #### Github Commands : 
   _ git clone -- to transfer the repo to your local 
-  _ git push -- to upload the projects to the remote repo
+  _ git push origin main -- to upload the projects to the remote repo
   _ git remote add origin <link>
+  _ git push -u origin master -- to pull before uploading 
 
 
 #### Git Commands :
