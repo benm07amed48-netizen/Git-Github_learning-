@@ -37,7 +37,8 @@ this repo is for learning GIT \& GITHUB
 - git clean -n 			====	to show the untracked files about to be deleted  
 - git clean -f 			====	to delete the untracked files  
 - git reset head --hard <hash>	====	to reverse time to the after selected commit use force pushing after
-- git reset head --soft <hash>	====	to cancel commits and send file to staging area  use force pushing after 
+- git reset head --soft <hash>	====	to cancel commits and send file to staging area  use force pushing after
+- git add -f <file name>	====	to add the ignored file  
 
  
 
