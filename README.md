@@ -34,6 +34,9 @@ this repo is for learning GIT \& GITHUB
 - git stash pop/apply <stash>	====	to get the stash items to your index with/out removing the stash <stash>
 - git stash show <stash>	====	to show the stash content 
 - git stash drop <stash> 	====	to remove the stash <stash>
+- git clean -n 			====	to show the untracked files about to be deleted  
+- git clean -f 			====	to delete the untracked files  
+
  
 
 
