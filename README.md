@@ -36,6 +36,8 @@ this repo is for learning GIT \& GITHUB
 - git stash drop <stash> 	====	to remove the stash <stash>
 - git clean -n 			====	to show the untracked files about to be deleted  
 - git clean -f 			====	to delete the untracked files  
+- git reset head --hard <hash>	====	to reverse time to the after selected commit use force pushing after
+- git reset head --soft <hash>	====	to cancel commits and send file to staging area  use force pushing after 
 
  
 
