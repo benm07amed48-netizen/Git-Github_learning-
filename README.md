@@ -40,7 +40,13 @@ this repo is for learning GIT \& GITHUB
 - git reset head --soft &lt;hash&gt;	====	to cancel commits and send file to staging area  use force pushing after
 - git add -f &lt;file name&gt;	====	to add the ignored file 
 - git tag &lt;release n°/name&gt;	==== 	to detect tag without comment it's the snapshot
-- git tag -a &lt;name&gt; -m "msg"	==== 	to detect tag and adding comment   
-
-
+- git tag -a &lt;name&gt; -m "msg"	==== 	to detect tag and adding comment
+- git push origin &lt;name&gt;   	====	to push tag to remote repo 
+- git tag -d &lt;name&gt;		====	to delete the tag from locale repo
+- git push origin --delete &lt;name&gt;	====	to delete the tag from remote repo
+- git cherry-pick &lt;hash&gt;		====	to transfer the commit to the current branch
+- git log 				====	to show current branch commits 
+- git log --all 			====	to show all commits in repo 
+- git log --all --oneline 		====	to show all commits in repo oneline each
+- git log --all --oneline --graph	====	to show all commits in repo oneline each in graph
 - git config --global alias.&lt;shortcut&gt; "&lt;command to be shortcuted&gt;"  
