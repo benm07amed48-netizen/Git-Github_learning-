@@ -2,7 +2,9 @@
 this repo is for learning GIT &amp; GITHUB
 
 #### Github Commands : 
-  _ git clone to transfer the repo to your local 
+  _ git clone -- to transfer the repo to your local 
+  _ git push -- to upload the projects to the remote repo
+  _ git remote add origin <link>
 
 
 #### Git Commands :
@@ -14,4 +16,5 @@ this repo is for learning GIT &amp; GITHUB
  _ git status -- to see the diffrences between local index object store
  _ git diff -- check the differences between local & index but showing them in special form 
  _ git diff --cashed -- check the differences between index & last commit but showing them in special form 
+
  
