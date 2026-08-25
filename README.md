@@ -2,35 +2,36 @@
 this repo is for learning GIT &amp; GITHUB
 
 #### Github Commands : 
-  _ git clone    			====    to transfer the repo to your local 
-  _ git push origin main   		====    to upload the projects to the remote repo
-  _ git remote add origin <link>    	====    to link the local repo with remote repo
-  _ git push -u origin master    	====    to pull before uploading 
-
+ - git clone    			====    to transfer the repo to your local 
+ - git push origin main   		====    to upload the projects to the remote repo
+ - git remote add origin <link>    	====    to link the local repo with remote repo
+ - git push -u origin master    	====    to pull before uploading 
 
 #### Git Commands :
- _ git init    		 	 ====    to create new repo
- _ git add <file name>     	 ====    to add file(s) to the index repo index
- _ git commit -m "comment"   	 ====    to commit change including explanation messages 
- _ git mv <file name>   	 ====    to change file name from index and local dir
- _ git rm <file name>  		 ====    to remove a file from both index and local dir 
- _ git rm --cache <file name>    ====    to remove only from staging area /
- _ git restore --staged <file>   ====    to unstage the last satges consider file not changed from last commit
- _ git status    		 ====    to see the diffrences between local index object store
- _ git diff     		 ====    to check the differences between local & index 
- _ git diff --cashed     	 ====    to check the differences between index & last commit 
- _ git branch    		 ====    to show the branches on your local git repo
- _ git branch <branh name>    	 ====    to create 
- _ git checkout <branch name> 	 ====	 to swith to the branch
- _ git branch -d <branch name>	 ====	 to delete the branch ~ safe ~
- _ git branch -D <branch name>	 ====	 to delete the branch ~ force ~
- _ git checkout -b <branch name> ====	 to create and swith to the branch 
- _ git branch -m <new name>	 ====	 to rename the branch you are in 
- _ git stash 
+- git init    		 	====    to create new repo
+- git add <file name>     	====    to add file(s) to the index repo index
+- git commit -m "comment"   	====    to commit change including explanation messages 
+- git mv <file name>   		====    to change file name from index and local dir
+- git rm <file name>  		====    to remove a file from both index and local dir 
+- git rm --cache <file name>   	====    to remove only from staging area 
+- git restore --staged <file>  	====    to unstage the last satges consider file not changed from last commit
+- git status    		====    to see the diffrences between local index object store
+- git diff     			====    to check the differences between local & index 
+- git diff --cashed     	====    to check the differences between index & last commit 
+- git branch    		====    to show the branches on your local git repo
+- git branch <branh name>    	====    to create 
+- git checkout <branch name> 	====	to swith to the branch
+- git branch -d <branch name>	====	to delete the branch ~ safe ~
+- git branch -D <branch name>	====	to delete the branch ~ force ~
+- git checkout -b <branch name>	====	to create and swith to the branch 
+- git branch -m <new name>	====	to rename the branch you are in 
+- git stash 			====	to add index files to stash
+- git stash save "stash name"	====	to add index files to stash named ~stash name~
+- git stash list 		====	to show the stashes you have 
+- git stash pop/apply		====	to to get the stash items to your index with/out removing the stash
 
 
-
- _ git config --global alias.<shortcut> "<command to be shortcuted>"  
+- git config --global alias.<shortcut> "<command to be shortcuted>"  
 
 
 
