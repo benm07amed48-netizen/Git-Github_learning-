@@ -50,3 +50,6 @@ this repo is for learning GIT \& GITHUB
 - git log --all --oneline 		====	to show all commits in repo oneline each
 - git log --all --oneline --graph	====	to show all commits in repo oneline each in graph
 - git config --global alias.&lt;shortcut&gt; "&lt;command to be shortcuted&gt;"  
+## RESOURCES :
+- Great appreciation for <a href="https://youtube.com/playlist?list=PLDoPjvoNmBAw4eOj58MZPakHjaO3frVMF&si=LCDKyZkY4vZ9h6S4" title="alzero web school Git and Github learning playlist" target="_blank" rel="noopener noreferrer">**MR.OSSAMA**</a>
+- Thanks for <a href="https://roadmap.sh/git-github" target="_blank" rel="noopener noreferrer">**ROADMAP.SH**</a> guidence
