@@ -4,7 +4,7 @@ this repo is for learning GIT \& GITHUB
 
 #### Github Commands :
 
-- git clone    			====    to transfer the repo to your local
+- git clone    		 	====    to transfer the repo to your local
 - git push origin main   	====    to upload the projects to the remote repo
 - git remote add origin <link>  ====    to link the local repo with remote repo
 - git push -u origin master    	====    to pull before uploading
@@ -34,6 +34,12 @@ this repo is for learning GIT \& GITHUB
 - git stash pop/apply <stash>	====	to get the stash items to your index with/out removing the stash <stash>
 - git stash show <stash>	====	to show the stash content 
 - git stash drop <stash> 	====	to remove the stash <stash>
+- git clean -n 			====	to show the untracked files about to be deleted  
+- git clean -f 			====	to delete the untracked files  
+- git reset head --hard <hash>	====	to reverse time to the after selected commit use force pushing after
+- git reset head --soft <hash>	====	to cancel commits and send file to staging area  use force pushing after
+- git add -f <file name>	====	to add the ignored file  
+
  
 
 
